@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+html {
+    font-family: 'Antonio', sans-serif;
+}
+
+.contenedor{
+width: 100%;
+}
+
+.tenis{
+background-image: url("../img/mjtenis.jpg");
+width: 100vw;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.titulo{
+position: absolute;
+top: 35%;
+left: 30%;
+background-color: #08a6c9;
+padding: 15px;
+}
+
+h1{
+font-size: 60px;	
+}
+
+.error404{
+position: absolute;
+top: 15%;
+left: 40%;
+font-size: 35px;
+background-color: #ffffff;
+border: 5%;
+padding: 1%;
+}
+
+.boton{
+font-size: 30px;
+position: absolute;
+top: 60%;
+left: 40%;
+font-weight: bold;
+background-color: #08a6c9;
+width: 15%;
+padding: 1%;
+text-align: center;
+transform: scale(1.15);
+transition: 1.5s;
+}
+
+.boton a{
+text-decoration: none;
+color: #000;
+}
+
+.boton:hover{
+color: #5186e8;
+background-color: #ffffff;
+}
+
+.pelota{
+position: absolute;
+top: 77%;
+left: 4%;
+right: 6%;
+}
+
+.pelota img{
+width: 8%;
+animation-name: pelota1;
+animation-duration: 6s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+
+.nube{
+position: absolute;
+left: 5%;
+}
+
+.nube img{
+width: 50%;
+animation-name: nube1;
+animation-duration: 6s;
+animation-timing-function: ease;
+animation-iteration-count: infinite;
+}
+
+.info{
+position: absolute;
+top: 92%;
+left: 20%;
+font-size: 20px;
+background-color: #ffffff;
+padding: 1%;
+}
+
+.stop{
+left: 5%;
+top: 35%;
+position: absolute;
+}
+
+.stop img{
+width: 70%;
+}
+
+@keyframes	pelota1{
+0% {}
+50% {transform: translateX(1250px) rotate(2turn);}
+100%{}	
+}	
+
+@keyframes	nube1{
+0% {}
+50% {transform: translateX(1100px);}
+100%{}	
+}
+
+@media (min-width: 0px) and (max-width: 800px) { 
+.pelota{ 
+display: none;
+}
+
+.nube{ 
+display: none;
+}
+
+.boton{
+font-size: 30px;
+position: absolute;
+top: 60%;
+left: 40%;
+font-weight: bold;
+background-color: #08a6c9;
+width: 25%;
+padding: 1%;
+border: 5%;
+text-align: center;
+transform: scale(1.15);
+transition: 1.5s;
+}
+
+}	

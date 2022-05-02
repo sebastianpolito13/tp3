@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Vanguardia Futurismo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e26acfe91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="sticky-top">
+<header class="container-fluid header p-2">
+
+   <nav class="navbar navbar-expand-lg navbar-light">
+
+    <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="img/portada99.png"></a>
+        </div>
+      </div>
+
+    <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      Menú
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color:white" href="historia.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BIOGRAFÍA
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="historia.html">HISTORIA</a></li>
+            <li><a class="dropdown-item" href="filosofia.html">FILOSOFÍA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color:white" aria-current="page" href="torneos.html">GALERÍA</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color:white" href="artistas.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ARTISTAS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="luigi.html">LUIGI</a></li>
+            <li><a class="dropdown-item" href="carlo.html">CARLO</a></li>
+            <li><a class="dropdown-item" href="umberto.html">UMBERTO</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" style="color:white" aria-current="page" href="contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+</div>
+</nav>
+</header>
+</div>
+
+   	<div class="header3 container-fluid p-4">
+
+   		<div class="texto text-black p-3 text-center"><h2>¿Querés comunicarte con nosotros?</h2></div>
+
+      <h5 class="text-black p-2 text-center">Envianos tu consulta y responderemos a la brevedad. Atendemos de lunes a viernes de 09:00 a 14:00 (UTC +3).</h5>
+
+    </div> 
+
+    <section id="contacto" class="container-fluid my-3 contacto p-3">
+
+    	<div class="container">
+    		<div class="text"><h5>Rellená todos los casilleros para poder enviar el formulario</h5></div>
+
+    			<form class="row g-3" method="post" netlify>
+
+    				<div class="col-12 casilleros p-2">
+    				<label for="inputAddress2" class="form-label">Nombre</label>
+    				<input name="Nombre" type="text" class="form-control" id="inputAddress2" placeholder="Ej. Sebastián Polito" required>
+  					</div>
+
+  					<div class="col-md-6 casilleros p-2">
+    				<label for="inputEmail4" class="form-label">Mail</label>
+   					<input name="email" type="email" class="form-control" id="inputEmail4" placeholder="ejemplo@ejemplo.com" required>
+  					</div>
+
+  					<div class="col-md-6 casilleros p-2">
+    				<label for="inputPassword4" class="form-label">Contraseña</label>
+    				<input name="password" type="password" class="form-control" id="inputPassword4" required>
+ 					</div>
+
+  					<div class="col-md-8 casilleros p-2">
+    				<label for="inputAddress2" class="form-label">Ciudad</label>
+    				<input name="Ciudad" type="text" class="form-control" id="inputAddress2" placeholder="Ej: Buenos Aires" required>
+  					</div>
+
+  					<div class="col-md-4 casilleros p-2">
+    				<label for="inputState" class="form-label">País</label>
+    				<select id="inputState" class="form-select">
+      				<option selected>Argentina</option>
+      				<option>Bolivia</option>
+      				<option>Brasil</option>
+      				<option>Canadá</option>
+      				<option>Chile</option>
+      				<option>Colombia</option>
+      				<option>Ecuador</option>
+      				<option>España</option>
+      				<option>Estados Unidos</option>
+      				<option>México</option>
+      				<option>Panamá</option>
+      				<option>Paraguay</option>
+      				<option>Perú</option>
+      				<option>Uruguay</option>
+      				<option>Venezuela</option>
+              <option>Otro</option>
+    				</select>
+  					</div>
+
+  					<div class="col-12">
+    				<div class="form-check">
+      				<input class="form-check-input" type="checkbox" id="gridCheck2">
+      				<label class="form-check-label" for="gridCheck2">
+        			<div class="text-black" type="new">Acepto los términos y condiciones</div>
+      				</label>
+    				</div>
+  					</div>
+
+  					<div class="col-12">
+    				<button type="submit" value="Enviar" class="btn btn-primary">Guardar datos</button>
+  					</div>
+				</form>
+
+		</div>	
+
+	</section>
+
+<footer class="full-footer">
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-12 p-3">
+
+        <a style="color:white" class="p-3" href="https://www.facebook.com"><i class="fab fa-2x fa-facebook-square"></i></a>
+
+        <a style="color:white" class="p-3" href="https://twitter.com"><i class="fab fa-2x fa-twitter"></i></a>
+
+        <a style="color:white" class="p-3" href="https://www.instagram.com"><i class="fab fa-2x fa-instagram"></i></a>
+
+      </div>
+
+      <div class="col-lg-5 col-md-5 col-sm-12 p-3">
+
+        <h7 class="text-white">Sebastián Polito - &copy 2022</h7>
+
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12 p-3">
+
+        <h7 class="text-white">Producción Digital III</h7>
+
+
+      </div>
+      </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</footer>
+
+
+</body>
+</html>
