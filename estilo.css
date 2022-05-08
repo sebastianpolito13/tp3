@@ -1,0 +1,113 @@
+/*
+Reglas CSS o estilos CSS
+
+selector{ 
+	propiedad: valor;
+}
+
+Tipos de selectores:
+	id
+	class
+	tag
+	* (universal);
+
+	pseudo-clases :hover, :focus;
+	apliacadas a los selectores.
+
+*/
+
+*{ 
+	margin: 0;
+	padding: 0;
+}	
+
+html{ 
+	font-family: Arial;
+	font-size: 16px;
+	max-width: 1080px;
+	max-height: 720px;
+	margin: auto;
+	background-color: #dbdbdb;
+}
+
+{ }
+
+body{ 
+background-image: url("../img/");
+}
+
+a{ 
+text-decoration: none;
+color: white;
+}
+
+h1{
+color: white;
+}
+
+#contenedor{
+	width: 80%; /*80% del área visible*/
+	margin-left: 10%;
+	margin-right: 10%;
+	background: rgba(255,255,255,0.5);
+}		
+
+.header>img{
+	width: 100%; /*100% del espacio que hay en header*/
+}
+
+.header{
+	background-color: #1349C4;
+}
+
+.imgheader{
+width: 100%
+}
+
+/*si hay una clase podemos hacer
+
+.imgheader{
+---
+}	
+
+*/
+
+h1{
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+/* todo el espaciado se hace con margin y padding */
+
+.personajes{
+
+}
+
+.imgpersonaje{
+width: 40%;
+float: left;
+}
+.imgpersonaje img{
+border-radius: 50%;
+}
+
+.txtpersonaje{
+width: 60%;
+float: right;
+}
+
+.footer{
+	width: 80%; /*80% del área visible*/
+	margin-left: 10%;
+	margin-right: 10%;
+	clear: both;
+}
+
+.full-footer{
+	background-color: #C48E13;
+}
+
+/*siempre que apliques float, vas a tener que aplicar clear, luego
+
+el que quiero desactivar, es el mismo. Both es mas conveniente.*/
