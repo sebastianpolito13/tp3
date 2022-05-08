@@ -12,7 +12,7 @@
 <body>
 
 <div class="sticky-top">
-<header class="container-fluid header p-2">
+<header class="container-fluid header p-3">
 
    <nav class="navbar navbar-expand-lg navbar-light">
 
@@ -70,7 +70,7 @@
 
    		<div class="texto text-black p-3 text-center"><h2>¿Querés comunicarte con nosotros?</h2></div>
 
-      <h5 class="text-black p-2 text-center">Envianos tu consulta y responderemos a la brevedad. Atendemos de lunes a viernes de 09:00 a 14:00 (UTC +3).</h5>
+      <h5 class="text-black p-2 text-center">Envianos tu consulta y responderemos a la brevedad. Atendemos de lunes a viernes de 09:00 a 14:00.</h5>
 
     </div> 
 
@@ -79,7 +79,7 @@
     	<div class="container">
     		<div class="text"><h5>Rellená todos los casilleros para poder enviar el formulario</h5></div>
 
-    			<form class="row g-3" method="post" netlify>
+    			<form action="consulta.php" method="post" class="row g-3" netlify>
 
     				<div class="col-12 casilleros p-2">
     				<label for="inputAddress2" class="form-label">Nombre</label>
@@ -102,21 +102,35 @@
   					</div>
 
   					<div class="col-md-4 casilleros p-2">
-    				<label for="inputState" class="form-label">País</label>
+    				<label for="inputState" class="form-label" name="pais">País</label>
     				<select id="inputState" class="form-select">
+              <option>Alemania</option>
       				<option selected>Argentina</option>
+              <option>Australia</option>
+              <option>Bélgica</option>
       				<option>Bolivia</option>
       				<option>Brasil</option>
       				<option>Canadá</option>
+              <option>Costa Rica</option>
       				<option>Chile</option>
       				<option>Colombia</option>
+              <option>Cuba</option>
       				<option>Ecuador</option>
+              <option>El Salvador</option>
       				<option>España</option>
       				<option>Estados Unidos</option>
+              <option>Francia</option>
+              <option>Inglaterra</option>
+              <option>Italia</option>
       				<option>México</option>
+              <option>Nicaragua</option>
+              <option>Nueva Zelanda</option>
       				<option>Panamá</option>
       				<option>Paraguay</option>
       				<option>Perú</option>
+              <option>Portugal</option>
+              <option>Puerto Rico</option>
+              <option>República Dominicana</option>
       				<option>Uruguay</option>
       				<option>Venezuela</option>
               <option>Otro</option>
@@ -133,7 +147,7 @@
   					</div>
 
   					<div class="col-12">
-    				<button type="submit" value="Enviar" class="btn btn-primary">Guardar datos</button>
+    				<button type="submit" value="Enviar" class="btn btn-primary">Enviar</button>
   					</div>
 				</form>
 
