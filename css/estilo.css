@@ -19,7 +19,7 @@ Tipos de selectores:
 *{ 
 	margin: 0;
 	padding: 0;
-}	
+}
 
 html{ 
 	font-family: Arial;
@@ -60,7 +60,12 @@ color: white;
 	background-color: #1349C4;
 }
 
+.busquedas{
+	background-color: #1349C4;
+}
+
 .imgheader{
+	
 width: 100%
 }
 
@@ -107,6 +112,53 @@ float: right;
 .full-footer{
 	background-color: #C48E13;
 }
+
+.imagenes-torneo{
+transition: 0.8s;
+}
+
+.imagenes-torneo:hover{
+transform: scale(125%);
+}
+
+.img-fluid figure{ 
+max-width: 100%;
+max-height: 100%;
+}
+
+.notis{
+ animation-name: fotoan;
+ animation-duration: 3s;
+ animation-delay: 0s;
+}
+
+img.notis{ 
+width: 100%;
+transition: 0.8s;
+}
+
+img.notis:hover{ 
+transform: scale(110%);
+}
+
+img.notisi{ 
+width: 100%;
+transition: 0.3s;
+position: center;
+}
+
+img.notisi:hover{ 
+transform: scale(105%);
+}
+
+.imagenes-torneos{
+transition: 0.5s;
+}
+
+.imagenes-torneos:hover{
+transform: scale(105%);
+}
+
 
 /*siempre que apliques float, vas a tener que aplicar clear, luego
 
